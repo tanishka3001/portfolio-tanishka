@@ -1,0 +1,89 @@
+html {
+    font: size 22px;
+body{
+    margin:0;
+    background:linear-gradient(rgb(76, 27, 76),rgb(66, 5, 112));
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color:whitesmoke; 
+}
+
+}
+@keyframes ColorChange {
+    20%{color: #f09999;}
+    40%{color:rgb(244, 74, 74)}
+    60%{color:rgb(109, 195, 166)}
+    80%{color:rgb(170, 130, 208)}
+    100%{color:rgb(237, 205, 166)}
+}
+h1{
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px; 
+    padding: 25px;
+    animation: 3s linear 0s infinite running ColorChange;
+}
+.navigation{
+    border-style:solid;
+    border-color: rgb(172, 156, 186);
+    background-color: rgb(172, 156, 186);
+    border-width:20px;
+    text-align:center;
+}
+a{
+    color:black;
+}
+a:hover{
+    color:blanchedalmond;
+}
+a:visited{
+    color:rgb(105, 85, 85)
+}
+.content{
+    background-image:url('images/bg.png');
+    background-position: center;
+    background-size: cover;
+}
+.left{
+    float:left;
+    font-size:50px;
+    text-align:left;
+    margin-left: 20px;
+}
+.left:hover{
+    color:pink;
+}
+.right{
+    font-size:50px;
+    text-align:right;
+    margin-right:20px;
+    
+}
+.right:hover{
+    color:pink;
+}
+.image img.visible{
+    display:block;
+    float:left;
+    margin-left:250px;
+}
+.image img.hidden{
+    display:none;
+}
+#details{
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 20px;
+}
+#about{
+    margin-left:10px;
+    font-size: 20px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color:black;
+    background-color:black;
+    
+}
